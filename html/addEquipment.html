@@ -1,0 +1,189 @@
+<!--
+  Add Equipment AVtory
+  * =^.,.^= DENISE THUY VY NGUYEN
+  10-25-2017
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Add Equipment</title>
+        <link rel="icon" href="../images/AV.png"/>
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+  </head>
+
+<body>
+  <header>
+<!--TOP NAV BAR-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="../html/AVtory.html">
+      <img src="../images/AV.png" width="50" height="auto"/>
+    </a>
+
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link active" href="../html/AVtory.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/setting.html">Settings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/logout.html">Log Out</a>
+          </li>
+        </ul>
+        <!--TOP NAV BAR--> 
+      </div>
+    </nav>
+  </header> 
+  <!--END OF TOP NAV BAR-->
+
+  <!--START OF BODY-->
+  <div class="container">
+    <div class="jumbotron mt-3">
+     <p id="main_content">
+      Equipment Actions:
+      <form action="">
+        <a class="btn btn-lg btn-primary" href="../html/addEquipment.html" role="button">   
+          Add Equipment &raquo;
+         </a>
+        <a class="btn btn-lg btn-primary" href="../html/addEquipment.html" role="button">   
+          Edit Equipment &raquo;
+        </a>
+        <a class="btn btn-lg btn-primary" href="../html/addEquipment.html" role="button">   
+          Delete Equipment &raquo;
+        </a>
+      </form>
+
+      <h1>Adding new items to AVtory</h1>
+        <p class="lead">Review all the fields and input the item information.</p>
+        
+         <form id="addEquipmentForm">
+         <div class="table-responsive">
+          <table class="table table-striped">
+              <tbody>
+       
+                <tr>
+                 <th>Location:</th>
+                  <td>
+                   <input type = "text" id="loc" size = "60" placeholder="" onchange=""/>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Item name:</th>
+                   <td>
+                    <input type = "text" id="item" size = "60" placeholder="" onchange=""/>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Description:</th>
+                   <td>
+                    <input type = "text" id="description" size = "60" placeholder="" onchange=""/>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Model:</th>
+                   <td>
+                    <input type = "text" id="model" size = "60" placeholder="" onchange=""/>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Serial:</th>
+                   <td>
+                    <input type = "text" id="serial" size = "60" placeholder="" onchange=""/>
+                  </td>
+                </tr>
+
+
+                <thead>
+                <tr>
+                  <th>Category:</th>
+                  <td>
+                    <select name="catagoreyType" id = "category" > 
+                      <option value = "">  </option>
+                      <option value = ""> Category 1 </option>
+                      <option value = ""> Category 2 </option>
+                      <option value = ""> Category 3 </option>
+
+                    </select> 
+                  </td>
+                </tr>
+              </thead>
+
+              <thead>
+                <tr>
+                  <th>In Service:</th>
+                  <td>
+                    <select name="serviceType" id = "serviceItem" > 
+                      <option value = "">  </option>
+                      <option value = "serviceYes"> Yes </option>
+                      <option value = "serviceNo"> No </option>
+                    </select> 
+                  </td>
+                </tr>
+              </thead>
+
+             
+
+              </tbody>
+            </table>
+          </div>
+
+          <!--BUTTONS-->
+          <a class="btn btn-lg btn-primary" role="button" value="getItem" onclick="createUser()">
+           Add Item!
+          </a>
+          <a class="btn btn-lg btn-primary" role="button" type="button" value="reset" onclick="clearProject()">
+          Clear
+        </a>      
+      </form>
+    </div> 
+
+
+
+      <!--BOTTOM NAV BAR-->
+      <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark">
+        
+      <!--BOTTOM DROP UP-->
+      <li class="nav-item dropup" style="list-style-type:none" >
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false"><img src="../images/arrowup.png" width="25" height="auto">
+        </a>
+      <div class="dropdown-menu" aria-labelledby="dropdown10">
+          <a class="dropdown-item" href="../html/about.html">AVtory</a> 
+          <a class="dropdown-item " href="../html/equipment.html">Equipment</a> 
+          <a class="dropdown-item active" href="../html/addEquipment.html">Add Equipment</a> 
+          <a class="dropdown-item" href="../html/chkin.html">Check In</a> 
+          <a class="dropdown-item" href="../html/login.html">Check Out</a> 
+      </div>
+      </li>
+      </div>
+    </nav>
+  </nav>  
+  <!--END NAV-->
+
+
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../js/addEquipment.js"></script>
+
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+
+
