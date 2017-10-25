@@ -35,6 +35,7 @@ chkout.html		*still needs to match other pages and implemented
 equipment.html	        *still needs to match other pages 
 
 addEquipment.html       -Adding new item has js check
+			*A better way to add items? User selects how many items they want to add. 
 			
 editEquipment.html	*Needs a js check 			
 deleteEquipment.html
