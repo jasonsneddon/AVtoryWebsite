@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!-- meowp.php - Processes the form described in
+     meow.html
+     -->
+<html lang ="en"> 
+<head>
+	<link rel="icon" href="sk.png" />
+	<title>CIS 44</title>
+	<meta charset = "utf-8">
+	<!-- ******   The CSS file is in a specific CSS folder now  ******* -->
+	<link rel="stylesheet" type="text/css" href="css/style_1.css">
+</head>
+<body>
+
+<!-- Navigation / Menu Bar at the top of page -->
+<div class="first_wrapper">
+	<div class="nav"> 
+	 <a href="index.html">
+	 	<img src="MV.gif" alt="MËTTA VY" border="0"  height="30" width="auto"> 
+     </a>
+	</div> 
+</div>
+<!-- Body of the Page -->
+<div class="second_wrapper">
+	<a href="#heading">What about headings?</a> // 
+	<a href="#tables">What about tabels?</a> // 
+	<a href="#forms">What about forms?</a> // 
+	<a href="#dropdown">What about dropdowm selecting elements?</a> //
+	<a href="#textarea">What about textarea?</a> // 
+	<a href="#actionbutton">What about action buttons?</a> //
+	<a href="#audio">What about action audio?</a> //
+	<a href="#video">What about action video?</a>
+	
+	<h4 id="heading">=^.,.^= Headings </h4>
+	<div class="maincontent">
+<!-- Ordered list and headers -->
+		<p id="heading">
+		 <ol>
+			<li><h1>Heading one </h1></li>
+			<li><h2>Heading two</h2></li>
+			<li><h3>Heading three</h3></li>
+			<li><h4>Heading four</h4></li>
+			<li><h5>Heading five</h5></li>
+			<li><h6>Heading six</h6></li>
+		</ol></p>
+	 </div>	 
+	
+	<h4 id="tables">=^.,.^= Tabels </h4>
+	<div class="leftelem">
+		<table>
+			<caption>Table Name</caption><tr>
+			<th></th>
+				<th>Column 1</th>
+				<th>Column 2</th>
+				<th>Column 3</th>
+			<tr>
+				<th>Row 1 </th>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+			</tr>
+				
+			<tr>
+				<th>Row 2 </th>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+			</tr>
+
+			<tr>
+				<th>Row 3 </th>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+			</tr>
+		</table>
+		<br>---</br>	
+	 </div> 
+
+	 <div class="rightelem">
+		 <table>
+			<caption>Table Name</caption><tr>
+				<td rowspan="2"></td>
+				<th colspan="3"></th>
+				</tr>
+				<tr>
+				<th>C 1</th>
+				<th>C 2</th>
+				<th>C 3</th>
+
+				<tr>
+					<th>Row 1 </th>
+					<td>a</td>
+					<td>b</td>
+					<td>c</td>
+				</tr>
+
+				<tr>
+					<th>Row 2 </th>
+					<td>a</td>
+					<td>b</td>
+					<td>c</td>
+				</tr>
+
+				<tr>
+					<th>Row 3 </th>
+					<td>a</td>
+					<td>b</td>
+					<td>c</td>
+				</tr>
+			</table>
+		 <br>---</br>	
+
+	  </div> 		  
+	</div> 	
+
+<div class="second_wrapper">
+	<h4 id="forms">=^.,.^= Forms </h4>
+	<div class="maincontent">
+		<p id="forms">Check List</p>
+			<form action ="">
+			 <p>
+			 	<label><input type="checkbox" name="checklist" value="one" check = "checked"/>One</label>
+				 <label><input type="checkbox" name="checklist" value="two" check = "checked"/>Two</label>
+				 <label><input type="checkbox" name="checklist" value="three" check = "checked"/>Three</label>
+			 </p>
+			</form>
+	</div>	 
+
+	<h4 id="dropdown">=^.,.^= Select Element </h4>
+	<div class="maincontent">
+	<br>
+		<img src= "renders/813a.png" width="200px" height="auto">
+		<img src= "renders/823e.png" width="200px" height="auto">
+		<img src= "renders/817b.png" width="200px" height="auto"></br>
+	
+	<p id="dropdown">Select from dropdown</p>
+	<form action =""><p>
+		Select a render: 
+		<select name ="dropdown">
+		<option>Monkey</option>
+		<option>Room</option>
+		<option>Cherry</option>
+		</select> 
+	</form>
+	</div>	
+
+
+	<h4 id="textarea">=^.,.^= Textarea Element </h4>
+	<div class="maincontent">
+	<br><center>
+		<img src= "renders/813a.png" width="200px" height="auto">
+		<img src= "renders/823e.png" width="200px" height="auto">
+		<img src= "renders/817b.png" width="200px" height="auto"></br>
+	</center>
+
+		<p id="textarea">Please type some things you like about the image you picked</p>
+		<form action ="handler"><p>
+		 <textarea name="handlertext" rows ="3" cols ="40">(Meow meow)
+		
+		</textarea>
+		</form>
+	 </div>	 
+
+
+
+	<h4 id="actionbutton">=^.,.^= Action Button</h4>
+	<div class="maincontent">
+	<br><center>
+		<img src= "renders/813a.png" width="200px" height="auto">
+		<img src= "renders/823e.png" width="200px" height="auto">
+		<img src= "renders/817b.png" width="200px" height="auto"></br>
+
+	</center>
+		<p id="actionbutton">Please type some things you like about the image you picked</p>
+			<form action ="">
+			 <p>
+			 <textarea name="handlertext" rows ="3" cols ="40">(Meow meow)
+			 	</textarea><p>
+		<input type="submit" value="Sumbit"/>
+		<input type="reset" value="Clear"/>
+		</p>
+		</form>
+	 </div>	 
+
+	<h4 id="audio">=^.,.^= Audio</h4>
+	<div class="maincontent">
+	<p id="audio">This is audio</p><center>
+		<audio controls="controls">
+			<source scr= "Ducky.mp3"/>
+			Your browser does not support this audio element
+		</audio></center>
+	</div>	
+
+
+	<h4 id="video">=^.,.^= Video</h4>
+	<div class="maincontent"><center>
+	<p id="video">This is video</p>
+		<video width="600" height="auto" autoplay="preload" controls="controls" preload="preload">
+			<source src="fish.mp4"/>
+		</video></center>
+	</div>	
+
+
+</div>	 
+<!-- ENDDDD -->
+</div>
+<!-- Divider between main content and footer-->
+<hr id="bottom_line">
+<div class="footer">
+	<ul>
+	
+                     <a href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;source=mailto&amp;to=metta.vy@gmail.com" target="_blank"><img
+                     alt="EMAIL" src="footer/MA.gif" border="0" height="32"
+                     width="35"></a> <a href="http://instagram.com/metta_vy" target="_blank"><img
+                     src="footer/IN.gif" alt="INSTAGRAM" border="0" height="32"
+                     width="35"></a> <a href="https://twitter.com/metta_vy" target="_blank"><img
+                     src="footer/TW.gif" alt="TWITTER" border="0" height="32"
+                     width="35"> </a> <a
+                     href="https://www.facebook.com/pages/Metta-Vy/1417133925191865?ref=bookmarks" target="_blank"><img
+                     src="footer/FB.gif" alt="FACEBOOK" border="0" height="32"
+                     width="35"> </a> <a
+                     href="https://www.youtube.com/channel/UCBVvkxoorsazLKrNDsuG4-Q" target="_blank"><img
+                     src="footer/YO.gif" alt="YOUTUBE" border="0" height="32"
+                     width="35"></a> <a
+                     href="https://metta-vy.tumblr.com/" target="_blank"><img
+                     src="footer/TU.gif" alt="TUMBLR" border="0" height="32"
+                     width="35"></a><a
+                     href="https://github.com/d3nise" target="_blank"><img
+                     src="footer/github.png" alt="GITHUB" border="0" height="32"
+                     width="35"></a>
+    		</ul>
+		</div> 
+	</body>
+</html>
