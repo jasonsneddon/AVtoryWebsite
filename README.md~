@@ -34,8 +34,7 @@ chkin.html		*still needs to match other pages and implemented
 chkout.html		*still needs to match other pages and implemented
 equipment.html	        *still needs to match other pages 
 
-addEquipment.html       -Adding new item has js check
-			
+addEquipment.html       *Needs a js check
 editEquipment.html	*Needs a js check 			
 deleteEquipment.html
 
