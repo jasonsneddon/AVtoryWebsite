@@ -1,60 +1,90 @@
-<!DOCTYPE html>
-<html lang ="en">
-<head>
-	<title> AVtory Logout </title>
-	<meta charset = "utf-8">
-	<!-- Link to CSS -->
-	<link rel="stylesheet" type="text/css" href="avtory/AVtory.css">
-</head>
+<!--
+  ABOUT AVtory
+  * =^.,.^= DENISE THUY VY NGUYEN
+  10-24-2017
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Equipment</title>
+        <link rel="icon" href="../images/AV.png"/>
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+  </head>
+
 <body>
-<!-- HEADER -->
-<div class="top_container">
-    <div class="header">
-        <p id="menu">Header and Menu Bar Goes Here</p>
-        <p id="menu">
-        	<a href="http://public.csusm.edu/mettavy/AVtory.html"target="_blank">Home</a> | 
-        	<a href="http://public.csusm.edu/mettavy/equipment.html" target="_blank">Equipment</a> |
-        	<a href="http://public.csusm.edu/mettavy/chkin.html" target="_blank">Check-In</a> |
-        	<a href="http://public.csusm.edu/mettavy/chkout.html" target="_blank">Check-Out</a> |
-        	<a href="http://public.csusm.edu/mettavy/logout.html" target="_blank">Logout</a> |
-        	<a href="http://public.csusm.edu/mettavy/setting.html" target="_blank">Setting</a>
-        </p>
+  <header>
+<!--TOP NAV BAR-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="../html/AVtory.html">
+      <img src="../images/AV.png" width="50" height="auto"/>
+    </a>
+
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../html/about.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link active" href="../html/signup.html">Sign Up</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="../html/login.html">Log In</a>
+        </li>
+        </ul>
+        <!--TOP NAV BAR--> 
+      </div>
+    </nav>
+  </header> 
+  <!--END OF TOP NAV BAR-->
+
+  <!--START OF BODY-->
+  <div class="container">
+    <div class="jumbotron mt-3">
+      Logged out
+    </div> 
+</div>
+
+
+      <!--BOTTOM NAV BAR-->
+      <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark">
         
-    </div>
-</div>
-<hr id="top_line">
-<!-- MAIN BODY -->
-<div class="body_container">
-    <div class="main_body">
-        <p id="main_content">Main Body Content Goes Here!</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  V  &#9;&#9;</p>
-    </div>
-</div>
-<hr id="bottom_line">
-<!-- FOOTER -->
-<div class="bottom_container">
-    <div class="footer">
-        <p id="social_media_links">Footer Goes Here</p>
-    </div>
-</div>
-</body>
+      <!--BOTTOM DROP UP-->
+      <li class="nav-item dropup">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false"><img src="../images/arrowup.png" width="25" height="auto">
+        </a>
+      <div class="dropdown-menu" aria-labelledby="dropdown10">
+          <a class="dropdown-item " href="../html/about.html">AVtory</a> 
+          <a class="dropdown-item" href="../html/signup.html">Sign Up</a> 
+          <a class="dropdown-item" href="../html/login.html">Log In</a> 
+      </div>
+      </li>
+      </div>
+    </nav>
+  </nav>  
+  <!--END NAV-->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
+

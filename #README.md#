@@ -13,6 +13,7 @@ addEquipment.html       -Adding new item has js check
 editEquipment.html      *Needs a js check				
 deleteEquipment.html	*Needs a js check
 ^Both of these need a way to be selected and edited
+ls
 
 login.html	-Login has JS check and takes in what user fills out
 logout.html	*needs more stuff?

@@ -37,25 +37,24 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="../html/AVtory.html">Home</a>
+            <a class="nav-link" href="../html/AVtory.html" target="_blank">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/equipment.html">Equipment</a>
+            <a class="nav-link" href="../html/equipment.html" target="_blank">Equipment</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/chkin.html">Check In<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../html/chkin.html" target="_blank">Check In</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/chkout.html">Check Out</a>
+            <a class="nav-link" href="../html/chkout.html" target="_blank">Check Out</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/logout.html">Logout</a>
+            <a class="nav-link" href="../html/logout.html" target="_blank">Logout</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="../html/setting.html">Setting</a>
+            <a class="nav-link" href="../html/setting.html" target="_blank">Setting</a>
           </li>
         </ul>
-        
         <form class="form-inline mt-2 mt-md-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -113,11 +112,16 @@
 <div class="top_container">
  <div class="header">     
     <p id="menu">
-      </br>AVtory Homepage
+      </br>AVtory Checkin
     </p>  
 
     <p id="menu">
-
+      <select>
+        <option value="Category1">Category 1</option>
+        <option value="Category2">Category 2</option>
+        <option value="Category 3">Category 3</option>
+        <option value="Category 4">Category 4</option>
+      </select>
     </p>
   </div>
 </div>
@@ -127,40 +131,29 @@
 <div class="body_container">
     <div class="main_body">
         <p id="main_content">
-            Will be different Equipment categories:
+            Equipment checkin:
         </p>
         <p id="menu">
-          <img src="images/AVtory.png" width="200" height="auto"></br></p>
-        <p id="main_content">
-            <img src="../images/AV.png" width="200" height="auto">
-            <img src="../images/AV.png" width="200" height="auto"></br>
-            <img src="../images/AV.png" width="200" height="auto">
-            <img src="../images/AV.png" width="200" height="auto"></br>
-            <img src="../images/AV.png" width="200" height="auto">
-            <img src="../images/AV.png" width="200" height="auto"></br>
+          <img src="images/AVtory.png" width="200" height="auto"></br>
         </p>
+        <p id="main_content">
+          <table>
+            <h1>Checking in items</h1>
+            <tr>
+              <th colspan="2">Item ID</th> 
+              <th colspan="2">-----</th>
+            </tr>
+            <tr>
+              <td>Mic 1</td>
+              <td>Was out, now returning</td>
+              <tr>
+                <td>Mic 2</td>
+                <td>Was out, now returning</td>
+          </tr>
 
+          </table>
 
-
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  |  &#9;&#9;</p>
-        <p id="main_content">&#9;&#9;  V  &#9;&#9;</p>
+        </p>
     </div>
 </div>
 <hr id="bottom_line">
@@ -176,18 +169,34 @@
 
  <!-- Bootstrap core JavaScript
     ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
 
-  <!-- Placed at the end of the document so the pages load faster -->
+
+    <!--CDN versions of jQuery and Popper.js before it.-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>    
+    <!---Latest compiled and minified CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </body>
 </html>
 
 
 
 <!--
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+
+
+    IE10 viewport hack for Surface/desktop Windows 8 bug 
+    <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+    jQuery library
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    Latest compiled JavaScript
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 -->
